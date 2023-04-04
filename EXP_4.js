@@ -21,12 +21,14 @@ class Animal {
 };
 
 let objAnimal1 = new Animal("Elephant", "45,6");
-
+let objAnimal2 = new Animal("home", "50,7");
 
 let animals = [
     objAnimal1,
-    new Animal("Mouse", "55,6")
+    objAnimal2,
 ];
+
+
 
 function displayListAnimals() {
     for (let i = 0; i < animals.length; i++) {
